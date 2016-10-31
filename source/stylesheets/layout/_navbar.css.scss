@@ -7,6 +7,7 @@
   height: 70px;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 0px !important;
   .transparant {
     background-color: rgba(255,255,255,0.5)
   }
@@ -14,9 +15,9 @@
 
 /* Navbar item */
 .navbar-item {
-  flex: 0 1 auto;
+  flex: 0 0 20%;
   cursor: pointer;
-  // padding: 0 20px;
+  //padding: 0 20px;
 }
 
 /* Navbar standard link */
