@@ -7,9 +7,12 @@
 #   config.output_style = :compact
 # end
 
+<<<<<<< HEAD
 # Auto-prefixing of CSS code with vendor prefix
 activate :autoprefixer
 
+=======
+>>>>>>> d0d8a91fb7a381d6a48fa13f250b48f0a9b2347b
 ###
 # Page options, layouts, aliases and proxies
 ###
@@ -27,7 +30,11 @@ activate :autoprefixer
 #   page "/admin/*"
 # end
 
+<<<<<<< HEAD
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
+=======
+# Proxy pages (https://middlemanapp.com/advanced/dynamic_pages/)
+>>>>>>> d0d8a91fb7a381d6a48fa13f250b48f0a9b2347b
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
 #  :which_fake_page => "Rendering a fake page with a local variable" }
 
