@@ -7,7 +7,7 @@ gem 'middleman-deploy', '~> 1.0'
 
 # Assets
 gem 'jquery-middleman'
-gem 'bootstrap-sass', '3.3.6'
+gem 'bootstrap-sass', '3.3.7'
 gem 'font-awesome-sass', '4.5.0'
 gem 'middleman-autoprefixer'
 gem 'sass-rails', '>= 3.2'
