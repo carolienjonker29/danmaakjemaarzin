@@ -10,57 +10,8 @@ title: Dan maak je maar zin
   </div>
 </div>
 
-<section id="devoorstelling">
-  <div class="wrapper">
-    <div class="container-text">
-      <div class="content">
-          <h1 class="title">De voorstelling</h1>
-          <div class="section-title-border"></div>
-          <p>Er was een opdracht: verwezenlijk jezelf. Er was een oneindigheid van mogelijkheden. Er was de belofte, dat jij het in je had om succesvol te worden, boven iedereen uit te stijgen. Beloftes blijken illusies. Ambitie wordt barrière, mogelijkheid wordt beklemming. Je bent een wandelaar. En je valt.
-          De Odyssee van een generatie. Een zoektocht naar wat er over blijft als zekerheden wegvallen, als wat succes betekende leeg blijkt te zijn. Een ontknoping van het narratief van succes. En het resultaat: het verval, de val. Een verhaal verteld door middel van muziek en tekst.
-          Muziek : Thijs van den Geest.
-          Tekst: Willemijn van den Geest. </p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="speeldataenlocaties">
-<div class="wrapper">
-  <div class="container-text">
-    <div class="content">
-        <h1 class="title"><strong>Speeldata en locaties</strong></h1>
-          <div class="section-title-border"></div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque dignissimos repellendus tempore nam, voluptatum alias deserunt ex necessitatibus culpa laboriosam iste corrupti beatae explicabo quaerat pariatur, reiciendis, architecto harum ut, labore dolore! Accusantium beatae ipsam ipsum rerum officiis quia eaque ullam modi asperiores delectus deserunt iste commodi eum praesentium qui ratione dignissimos cum mollitia facere dolores, voluptas nesciunt voluptate eos.</p>
-    </div>
-  </div>
-</div>
-</section>
-
-<section id="demakers">
-<div class="wrapper">
-  <div class="container-text">
-    <div class="content">
-        <h1 class="title"><strong>De makers</strong></h1>
-        <div class="section-title-border"></div>
-        <p>Wij zijn Thijs en Willemijn, broer en zus, 21 en 27 jaar, beginnende makers, aan het begin van onze loopbaan, op zoek naar zin. Thijs is vierdejaars student Jazz trompet aan het conservatorium in Amsterdam. Willemijn studeerde Nederlands en Filosofie in Groningen en Amsterdam.</p>
-    </div>
-  </div>
-</div>
-</section>
-
-<section id="contact">
-<div class="wrapper">
-  <div class="container-text">
-    <div class="content">
-        <h1 class="title"><strong>Contact</strong></h1>
-        <div class="section-title-border"></div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni ipsum fuga, nobis nam dicta fugit maiores quasi, possimus et ullam asperiores debitis ducimus iusto impedit autem nihil consequuntur vitae. Quisquam accusantium perferendis quasi laboriosam beatae, repellendus nesciunt nobis odio aliquam ipsum tempore, quod cum suscipit incidunt cumque et dolorum nisi, qui modi itaque deserunt! Perspiciatis nisi porro quas perferendis at.</p>
-    </div>
-  </div>
-</div>
-</section>
-
+<div class="wrapper-carousel">
+<div id="caroliens-carousel">
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -72,18 +23,23 @@ title: Dan maak je maar zin
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="me.jpg" alt="...">
-      <!-- <div class="carousel-caption">
-        ...
-      </div> -->
+      <img src="http://placehold.it/450x350" alt="Slide 1">
+      <div class="carousel-caption">
+        Caption Slide 1
+      </div>
     </div>
     <div class="item">
-      <img src="me.jpg" alt="...">
-      <!-- <div class="carousel-caption">
-        ...
-      </div> -->
+      <img src="http://placehold.it/450x350" alt="Slide 2">
+      <div class="carousel-caption">
+        Caption Slide 2
+      </div>
     </div>
-    ...
+    <div class="item">
+      <img src="http://placehold.it/450x350" alt="Slide 3">
+      <div class="carousel-caption">
+        Caption Slide 3
+      </div>
+    </div>
   </div>
 
   <!-- Controls -->
@@ -96,4 +52,98 @@ title: Dan maak je maar zin
     <span class="sr-only">Next</span>
   </a>
 </div>
+</div>
+</div>
+
+<section id="devoorstelling">
+  <div class="wrapper">
+    <div class="container-text">
+      <div class="content">
+          <div class="title">De voorstelling</div>
+          <div class="section-title-border"></div>
+          <p>Er was een opdracht: verwezenlijk jezelf. Er was een oneindigheid van mogelijkheden. Er was de belofte, dat jij het in je had om succesvol te worden, boven iedereen uit te stijgen. Beloftes blijken illusies. Ambitie wordt barrière, mogelijkheid wordt beklemming. Je bent een wandelaar. En je valt.
+          De Odyssee van een generatie. Een zoektocht naar wat er over blijft als zekerheden wegvallen, als wat succes betekende leeg blijkt te zijn. Een ontknoping van het narratief van succes. En het resultaat: het verval, de val. Een verhaal verteld door middel van muziek en tekst.</p>
+          <p>Muziek : Thijs van den Geest</p>
+          <p>Tekst: Willemijn van den Geest</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="speeldataenlocaties">
+<div class="wrapper">
+  <div class="container-text">
+    <div class="content">
+        <div class="title">Speeldata en locaties</div>
+          <div class="section-title-border"></div>
+            <p>Woe 14 december - Theaterzaal CREA - Nieuwe Achtergracht 170, 1018 WV Amsterdam</p>
+            <p>Ma 19 december - Theaterzaal CREA - Nieuwe Achtergracht 170, 1018 WV Amsterdam </p>
+            <!DOCTYPE html>
+    <style>
+       #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var CREA = {lat: 52.363468, lng: 4.912843};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 15,
+          center: new google.maps.LatLng(52.363468, 4.912843),
+          scrollwheel: false
+        });
+        var marker = new google.maps.Marker({
+          position: new google.maps.LatLng(52.363468, 4.912843),
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwzf-BkHreJunQzLIYjeNi1j42PmMV88c&callback=initMap">
+    </script>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="demakers">
+<div class="wrapper-makers">
+  <div class="container-text">
+    <div class="content">
+        <div class="title">De makers</div>
+        <div class="section-title-border"></div>
+        <p>Wij zijn Thijs en Willemijn, broer en zus, 21 en 27 jaar, beginnende makers, aan het begin van onze loopbaan, op zoek naar zin. Thijs is vierdejaars student Jazz trompet aan het conservatorium in Amsterdam. Willemijn studeerde Nederlands en Filosofie in Groningen en Amsterdam.</p>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="contact">
+<div class="wrapper">
+  <div class="container-text">
+    <div class="content">
+        <div class="title">Contact</div>
+        <div class="section-title-border"></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni ipsum fuga, nobis nam dicta fugit maiores quasi, possimus et ullam asperiores debitis ducimus iusto impedit autem nihil consequuntur vitae. Quisquam accusantium perferendis quasi laboriosam beatae, repellendus nesciunt nobis odio aliquam ipsum tempore, quod cum suscipit incidunt cumque et dolorum nisi, qui modi itaque deserunt! Perspiciatis nisi porro quas perferendis at.</p>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="footer">
+  <div class="footer">
+    <div class="footer-social">
+      <div class="fa fa-facebook footer-icons btn-footer"><a href="https://www.facebook.com/danmaakjemaarzin/?fref=ts" target="_blank"></div>
+      <div class="fa fa-twitter footer-icons btn-footer"><a href="https://www.twitter.com/" target="_blank"></div>
+      <div class="fa fa-facebook footer-icons btn-footer"><a href="#" target="_blank"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
 
