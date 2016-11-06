@@ -2,14 +2,15 @@
 title: Dan maak je maar zin
 ---
 
-<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url(<%= image_path 'me.jpg' %>);">
+<div class="banner" style="background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url(<%= image_path 'tram.JPG' %>);">
   <div class="banner-content">
     <h1>Dan maak je maar zin</h1>
     <p>Een voorstelling met muziek en tekst</p>
-    <a class="btn btn-primary btn-lg">Reserveer nu!</a>
+    <a class="btn btn-primary btn-lg" href="#contact">Reserveer nu!</a>
   </div>
 </div>
 
+<div class="wrapper">
 <div class="wrapper-carousel">
 <div id="caroliens-carousel">
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -18,27 +19,45 @@ title: Dan maak je maar zin
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
     <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="7"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="8"></li>
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="http://placehold.it/450x350" alt="Slide 1">
-      <div class="carousel-caption">
+      <img src="images/cs1.JPG" alt="Slide 1">
+      <!-- <div class="carousel-caption">
         Caption Slide 1
-      </div>
+      </div> -->
     </div>
     <div class="item">
-      <img src="http://placehold.it/450x350" alt="Slide 2">
-      <div class="carousel-caption">
-        Caption Slide 2
-      </div>
+      <img src="images/cs2.JPG" alt="Slide 2">
     </div>
     <div class="item">
-      <img src="http://placehold.it/450x350" alt="Slide 3">
-      <div class="carousel-caption">
-        Caption Slide 3
-      </div>
+      <img src="images/cs3.JPG" alt="Slide 3">
+    </div>
+     <div class="item">
+      <img src="images/gracht.JPG" alt="Slide 4">
+    </div>
+    <div class="item">
+      <img src="images/museumplein.JPG" alt="Slide 5">
+    </div>
+    <div class="item">
+      <img src="images/thijscropped1.jpg" alt="Slide 6">
+    </div>
+    <div class="item">
+      <img src="images/wilcropped1.jpg" alt="Slide 7">
+    </div>
+    <div class="item">
+      <img src="images/thijscropped2.jpg" alt="Slide 8">
+    </div>
+    <div class="item">
+      <img src="images/wilcropped2.jpg" alt="Slide 9">
     </div>
   </div>
 
@@ -54,6 +73,16 @@ title: Dan maak je maar zin
 </div>
 </div>
 </div>
+
+<section id="citaat">
+  <div class="wrapper">
+    <div class="container-text">
+      <div class="content">
+        <p style="font-style: italic;">"Alles is aan het veranderen. Iedereen weer verder, alles steeds weer anders. Het stroomt en alles beweegt. Iedereen en alles beweegt. Behalve mijn huis, behalve ik."</p>
+      </div>
+    </div>
+  </div>
+</section>
 
 <section id="devoorstelling">
   <div class="wrapper">
@@ -76,6 +105,7 @@ title: Dan maak je maar zin
     <div class="content">
         <div class="title">Speeldata en locaties</div>
           <div class="section-title-border"></div>
+            <p>Do 8 december 2016 - Theaterzaal Conservatorium Amsterdam - Oosterdokskade 151, 1011 DL Amsterdam</p>
             <p>Woe 14 december - Theaterzaal CREA - Nieuwe Achtergracht 170, 1018 WV Amsterdam</p>
             <p>Ma 19 december - Theaterzaal CREA - Nieuwe Achtergracht 170, 1018 WV Amsterdam </p>
             <!DOCTYPE html>
@@ -114,14 +144,17 @@ title: Dan maak je maar zin
     <div class="content">
         <div class="title">De makers</div>
         <div class="section-title-border"></div>
-        <p>Wij zijn Thijs en Willemijn, broer en zus, 21 en 27 jaar, beginnende makers, aan het begin van onze loopbaan, op zoek naar zin. Thijs is vierdejaars student Jazz trompet aan het conservatorium in Amsterdam. Willemijn studeerde Nederlands en Filosofie in Groningen en Amsterdam.</p>
+        <div class="makers-content">
+          <p>Wij zijn Thijs en Willemijn, broer en zus, 21 en 27 jaar, beginnende makers, aan het begin van onze loopbaan, op zoek naar zin. Thijs is vierdejaars student Jazz trompet aan het conservatorium in Amsterdam. Willemijn studeerde Nederlands en Filosofie in Groningen en Amsterdam.</p>
+        </div>
+          <div><img src="images/thijsenwilresized.jpg" style="display: flex; justify-content: center; max-width: 100%;height: auto; margin: auto; padding: 10px"></div>
     </div>
   </div>
 </div>
 </section>
 
 <section id="contact">
-<div class="wrapper">
+<div class="wrapper-contact">
   <div class="container-text">
     <div class="content">
         <div class="title">Contact</div>
@@ -131,13 +164,14 @@ title: Dan maak je maar zin
   </div>
 </div>
 </section>
+</div>
 
 <section id="footer">
   <div class="footer">
     <div class="footer-social">
       <div class="fa fa-facebook footer-icons btn-footer"><a href="https://www.facebook.com/danmaakjemaarzin/?fref=ts" target="_blank"></div>
-      <div class="fa fa-twitter footer-icons btn-footer"><a href="https://www.twitter.com/" target="_blank"></div>
-      <div class="fa fa-facebook footer-icons btn-footer"><a href="#" target="_blank"></div>
+      <div class="fa fa-twitter footer-icons btn-footer"><a href="https://twitter.com/Wvandengeest" target="_blank"></div>
+      <div class="fa fa-youtube footer-icons btn-footer"><a href="#" target="_blank"></div>
       </div>
     </div>
   </div>

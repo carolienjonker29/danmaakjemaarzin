@@ -48,8 +48,22 @@
   text-transform: uppercase;
   font-weight: bold;
   font-size: 30px !important;
+  padding-top: 20px;
 }
 
 .wrapper-carousel {
   margin: 20px;
+}
+
+.makers-content {
+  display: flex;
+  justify-content: center;
+}
+
+.makers-image {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
 }

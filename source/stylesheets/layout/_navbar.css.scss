@@ -1,28 +1,31 @@
 /* Main class */
 .navbar {
-  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
-  background: #D6D6D6;
   transition: all 0.3s ease;
   display: flex;
   height: 70px;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 0px !important;
-  .transparant {
-    background-color: rgba(255,255,255,0.5)
-  }
+  position: absolute;
+  padding: 0 30px;
+  width: 100%;
+  background: transparent;
+  // .transparant {
+  //   background-color: rgba(255,255,255,0.5)
+  // }
 }
 
 /* Navbar item */
 .navbar-item {
   flex: 0 0 20%;
   cursor: pointer;
-  //padding: 0 20px;
+  color: #fafafa;
+  padding: 10px;
 }
 
 /* Navbar standard link */
 .navbar-link {
-  color: #616668;
+  color: #fafafa;
   font-size: 14px;
 }
 .navbar-link:hover {
