@@ -26,12 +26,14 @@
 
 .container-text {
   text-align: center;
-  background-color: red;
+  background-color: #fafafa;
 }
 
 .content {
   padding-left: 50px;
   padding-right: 50px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .section-title-border {
@@ -40,7 +42,7 @@
   width: 70px;
   height: 3px;
   margin: 0 auto 35px;
-  background-color: blue;
+  background-color: #cf3f45;
   // background-color: rgba(0, 0, 0, 0.6);
 }
 
