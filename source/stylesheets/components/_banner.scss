@@ -7,7 +7,11 @@
   justify-content: center;
   margin-left: 0px;
   margin-right: 0px;
-  // margin-top: 20px;
+  background-attachment: fixed;
+  background-position: center center;
+    @media (max-width: 750px) {
+        background-attachment: scroll;
+    }
 }
 
 .banner-content {
