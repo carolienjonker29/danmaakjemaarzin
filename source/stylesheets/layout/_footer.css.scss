@@ -36,3 +36,11 @@
   display: flex;
 }
 
+.copywright {
+  display: flex;
+  justify-content: center;
+  &:hover {
+    text-decoration: none !important;
+    color: #333333;
+  }
+}
