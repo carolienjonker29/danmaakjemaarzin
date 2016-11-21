@@ -32,6 +32,16 @@
   padding-bottom: 20px;
 }
 
+.content-poster-section {
+  padding-left: 50px;
+  padding-right: 50px;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #fafafa;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
 .content-video {
   display: flex;
   justify-content: center;
@@ -90,4 +100,13 @@
     max-width: 100%;
     height: auto;
     margin: auto;
+}
+
+.poster-content {
+  display: flex;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
 }
